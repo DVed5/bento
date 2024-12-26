@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Дизайн</title>
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="header__inner">
+				<a class="logo header__logo" href="#">
+					<img src="images/logo.svg" alt="logo">
+				</a>
+				<button class="header__btn btn open-modal" type="button">Закажите консультацию</button>
+				<dialog class="dialog">
+					<div class="dialog__inner">
+						<button class="close-modal" type="button">×</button>
+						<div class="form-title">Оставить заявку</div>
+						<form>
+							<div class="form-group">
+								<input type="text" placeholder="Ваше имя" required>
+							</div>
+							<div class="form-group">
+								<input type="tel" placeholder="+7 (999) 999-99-99" required>
+							</div>
+							<div class="form-group">
+								<input type="email" placeholder="Ваш e-mail" required>
+							</div>
+							<div class="form-group">
+								<textarea id="message" rows="4" placeholder="Введите ваше сообщение"></textarea>
+							</div>
+							<button type="submit" class="submit-btn">Отправить</button>
+						</form>
+					</div>
+				</dialog>
+				<button class="header__menu-btn">
+					<img src="images/btn-menu.svg" alt="menu button">
+				</button>
+				<nav class="header__menu">
+					<div class="header__menu-list">
+						<a class="header__menu-item" href="#about">О нас</a>
+						<a class="header__menu-item" href="#projects">Наши проекты</a>
+						<a class="header__menu-item" href="#tariffs">Тарифы</a>
+						<a class="header__menu-item" href="#contacts">Контакты</a>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</header>
